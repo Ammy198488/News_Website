@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (
-        <div className='bg-secondary text-white'>
+        <div className='bg-secondary mb-0 text-white'>
             <div className="container ">
                 {/* First Navbar */}
                 <nav className="navbar navbar-expand-lg">
@@ -88,7 +88,7 @@ const Navbar = () => {
                         </div>
                     </div>
                 </nav>
-                <hr className="" />
+                <hr />
             </div>
         </div>
     );
